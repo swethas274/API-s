@@ -23,6 +23,16 @@
 - 400 level - error with code
 - 500 level - erroe with server
 
+## GET vs POST
+
+| GET            | POST            |
+|----------------|-----------------|
+| recieve data   | create new data |
+| can call GET multiple times | each time when POST is called new data is created|
+| no request body | have request body |
+| parameter in header & URL | parameter in body, header & URL |
+
+
 ## End Points ##
 
 [Status](#Status)
